@@ -1,0 +1,15 @@
+{
+  "name": "webdriver",
+  "version": "1.0.0",
+  "description": "selenium101",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatassbudha/webdriverio.git"
+  },
+  "author": "Angelo I. Carreon",
+  "license": "ISC"
+}

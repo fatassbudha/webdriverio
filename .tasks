@@ -1,0 +1,13 @@
+echo "# webdriverio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/fatassbudha/webdriverio.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/fatassbudha/webdriverio.git
+git push -u origin master
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
