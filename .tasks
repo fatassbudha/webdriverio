@@ -11,3 +11,24 @@ git push -u origin master
 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+
+
+****************************
+  install
+
+  	1. webdriverio
+  	2. mocha
+	3. selenium-server-standalone-3.0.1.jar
+
+****************************
+
+- base url wdio.conf.js
+- mochaOpts: {
+        ui: 'bdd',
+        timeout: 99999999
+    	},
+- package.json scripts "test": "wdio"
+
+*****************************
+ selenium-standalone start
+ npm test
